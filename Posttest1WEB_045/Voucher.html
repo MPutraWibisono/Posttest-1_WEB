@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Kebabned Indonesia</title>
+	<link rel="stylesheet" href="stylevou.css">
+    <link rel="shortcut icon" href="images/kebabcrop.png" type="image/x-icon">
+</head>
+<body> 
+    <section class="main">
+        <nav ">
+            <!--logo-->
+            <a href="Beranda.html" class="logo"><img src="images/kebabcrop.png"/>
+            </a>
+            <ul class="menu">
+                <li><a href="Beranda.html">Home</a></li>
+                <li><a href="HowToOrder.html">How to Order</a></li>
+                <li><a href="Voucher.html">Voucher</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+        <!--main-content-->
+        <div class="home-content">
+            <div class="title">Silakan Masukkan Data</div>
+                <form action="#" id="form1">
+                    <!-- <h1>Silakan Masukkan untuk Voucher</h1> -->
+                    <div class="input-box">
+                        <span class="details">Nama :</span>
+                        <input type="text" name="nama" placeholder="Masukkan Nama" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Tahun lahir :</span>
+                        <select class="select" name="Tahun Lahir" required>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                            <option>2003</option>
+                            <option>2004</option>
+                            <option>2005</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email :</span>
+                        <input type="email" name="email" placeholder="Masukkan Email" required>
+                    </div>
+                    <div class="input-box2">
+                        <span class="details">Alasan Ingin Mendapatkan Voucher :</span><br>
+                        <textarea type="text" name="nama_wisata" placeholder="Masukkan Alasan Kamu" 
+                                    rows="0"
+                                    cols="0"required>
+                        </textarea>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Menu yang disukai :</span>
+                        <div class="topp">
+                            <input class="checkbox" type="checkbox" id="python">
+                            <label class="check" for="python">Original</label>
+                        </div>
+                        <div>
+                            <input class="checkbox" type="checkbox" id="mysql">
+                            <label class="check" for="mysql">Kornet</label>
+                        </div>
+                        <div>
+                            <input class="checkbox" type="checkbox" id="java">
+                            <label class="check" for="java">Tempe</label>
+                        </div>
+                        <div>
+                            <input class="checkbox2" type="checkbox" id="web">
+                            <label class="check" for="web">Salad</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="details">Selfie dengan produk Kebabned </span> <br>
+                        <label class="button_img">
+                            <input type="file" name="gambar" required />
+                            <span class='label' data-js-label>
+                        </label>
+                    </div>
+                    <br>
+                    <div>
+                        <span class="details">Apakah kamu suka dengan rasanya?</span><br>
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">SUKAKKKK</span>
+                        </label>&nbsp&nbsp&nbsp&nbsp
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender2">HWEKKK</span>
+                        </label>
+                        <br>
+                        &nbsp&nbsp&nbsp
+                        <input type="radio" name="paham" id="dot-1">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="radio" name="paham" id="dot-2">
+                        <br>
+                        <label class="button2">
+                            <input type="submit" value="Batal">&nbsp&nbsp&nbsp&nbsp&nbsp
+                        </label>
+                        <label>
+                            <input type="submit" value="Kirim">
+                        </label>
+                </form>
+        </div>
+    </section>
+    <footer>
+        <!-- <a href="#">Siap makan setiap hari.</a> -->
+        <p>&#169;Copyright 2020 Kebabned.</p>
+    </footer>
+</body>
+</html>
